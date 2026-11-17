@@ -1,0 +1,476 @@
+{
+  "tool": "RaceProbe",
+  "time": "2026-11-17T04:13:48",
+  "target": "POST http://127.0.0.1:8123/redeem",
+  "workers": 10,
+  "iterations": 5,
+  "barrier": true,
+  "flagged_bursts": 5,
+  "bursts": [
+    {
+      "burst": 1,
+      "requests_sent": 10,
+      "successes": 10,
+      "flagged": true,
+      "status_counts": {
+        "200": 10
+      },
+      "start_spread_ms": 1.564,
+      "duration_ms": 56.91,
+      "requests": [
+        {
+          "worker": 0,
+          "status": 200,
+          "success": true,
+          "elapsed_ms": 53.09,
+          "error": null,
+          "body_excerpt": "{\"message\": \"coupon redeemed\"}"
+        },
+        {
+          "worker": 1,
+          "status": 200,
+          "success": true,
+          "elapsed_ms": 52.81,
+          "error": null,
+          "body_excerpt": "{\"message\": \"coupon redeemed\"}"
+        },
+        {
+          "worker": 2,
+          "status": 200,
+          "success": true,
+          "elapsed_ms": 53.43,
+          "error": null,
+          "body_excerpt": "{\"message\": \"coupon redeemed\"}"
+        },
+        {
+          "worker": 3,
+          "status": 200,
+          "success": true,
+          "elapsed_ms": 53.02,
+          "error": null,
+          "body_excerpt": "{\"message\": \"coupon redeemed\"}"
+        },
+        {
+          "worker": 4,
+          "status": 200,
+          "success": true,
+          "elapsed_ms": 52.36,
+          "error": null,
+          "body_excerpt": "{\"message\": \"coupon redeemed\"}"
+        },
+        {
+          "worker": 5,
+          "status": 200,
+          "success": true,
+          "elapsed_ms": 53.84,
+          "error": null,
+          "body_excerpt": "{\"message\": \"coupon redeemed\"}"
+        },
+        {
+          "worker": 6,
+          "status": 200,
+          "success": true,
+          "elapsed_ms": 53.36,
+          "error": null,
+          "body_excerpt": "{\"message\": \"coupon redeemed\"}"
+        },
+        {
+          "worker": 7,
+          "status": 200,
+          "success": true,
+          "elapsed_ms": 53.59,
+          "error": null,
+          "body_excerpt": "{\"message\": \"coupon redeemed\"}"
+        },
+        {
+          "worker": 8,
+          "status": 200,
+          "success": true,
+          "elapsed_ms": 53.4,
+          "error": null,
+          "body_excerpt": "{\"message\": \"coupon redeemed\"}"
+        },
+        {
+          "worker": 9,
+          "status": 200,
+          "success": true,
+          "elapsed_ms": 52.49,
+          "error": null,
+          "body_excerpt": "{\"message\": \"coupon redeemed\"}"
+        }
+      ]
+    },
+    {
+      "burst": 2,
+      "requests_sent": 10,
+      "successes": 10,
+      "flagged": true,
+      "status_counts": {
+        "200": 10
+      },
+      "start_spread_ms": 0.838,
+      "duration_ms": 55.35,
+      "requests": [
+        {
+          "worker": 0,
+          "status": 200,
+          "success": true,
+          "elapsed_ms": 52.15,
+          "error": null,
+          "body_excerpt": "{\"message\": \"coupon redeemed\"}"
+        },
+        {
+          "worker": 1,
+          "status": 200,
+          "success": true,
+          "elapsed_ms": 51.97,
+          "error": null,
+          "body_excerpt": "{\"message\": \"coupon redeemed\"}"
+        },
+        {
+          "worker": 2,
+          "status": 200,
+          "success": true,
+          "elapsed_ms": 53.0,
+          "error": null,
+          "body_excerpt": "{\"message\": \"coupon redeemed\"}"
+        },
+        {
+          "worker": 3,
+          "status": 200,
+          "success": true,
+          "elapsed_ms": 52.6,
+          "error": null,
+          "body_excerpt": "{\"message\": \"coupon redeemed\"}"
+        },
+        {
+          "worker": 4,
+          "status": 200,
+          "success": true,
+          "elapsed_ms": 52.42,
+          "error": null,
+          "body_excerpt": "{\"message\": \"coupon redeemed\"}"
+        },
+        {
+          "worker": 5,
+          "status": 200,
+          "success": true,
+          "elapsed_ms": 52.46,
+          "error": null,
+          "body_excerpt": "{\"message\": \"coupon redeemed\"}"
+        },
+        {
+          "worker": 6,
+          "status": 200,
+          "success": true,
+          "elapsed_ms": 52.08,
+          "error": null,
+          "body_excerpt": "{\"message\": \"coupon redeemed\"}"
+        },
+        {
+          "worker": 7,
+          "status": 200,
+          "success": true,
+          "elapsed_ms": 51.91,
+          "error": null,
+          "body_excerpt": "{\"message\": \"coupon redeemed\"}"
+        },
+        {
+          "worker": 8,
+          "status": 200,
+          "success": true,
+          "elapsed_ms": 52.46,
+          "error": null,
+          "body_excerpt": "{\"message\": \"coupon redeemed\"}"
+        },
+        {
+          "worker": 9,
+          "status": 200,
+          "success": true,
+          "elapsed_ms": 51.21,
+          "error": null,
+          "body_excerpt": "{\"message\": \"coupon redeemed\"}"
+        }
+      ]
+    },
+    {
+      "burst": 3,
+      "requests_sent": 10,
+      "successes": 10,
+      "flagged": true,
+      "status_counts": {
+        "200": 10
+      },
+      "start_spread_ms": 0.462,
+      "duration_ms": 54.98,
+      "requests": [
+        {
+          "worker": 0,
+          "status": 200,
+          "success": true,
+          "elapsed_ms": 51.52,
+          "error": null,
+          "body_excerpt": "{\"message\": \"coupon redeemed\"}"
+        },
+        {
+          "worker": 1,
+          "status": 200,
+          "success": true,
+          "elapsed_ms": 52.65,
+          "error": null,
+          "body_excerpt": "{\"message\": \"coupon redeemed\"}"
+        },
+        {
+          "worker": 2,
+          "status": 200,
+          "success": true,
+          "elapsed_ms": 52.47,
+          "error": null,
+          "body_excerpt": "{\"message\": \"coupon redeemed\"}"
+        },
+        {
+          "worker": 3,
+          "status": 200,
+          "success": true,
+          "elapsed_ms": 52.54,
+          "error": null,
+          "body_excerpt": "{\"message\": \"coupon redeemed\"}"
+        },
+        {
+          "worker": 4,
+          "status": 200,
+          "success": true,
+          "elapsed_ms": 52.95,
+          "error": null,
+          "body_excerpt": "{\"message\": \"coupon redeemed\"}"
+        },
+        {
+          "worker": 5,
+          "status": 200,
+          "success": true,
+          "elapsed_ms": 52.7,
+          "error": null,
+          "body_excerpt": "{\"message\": \"coupon redeemed\"}"
+        },
+        {
+          "worker": 6,
+          "status": 200,
+          "success": true,
+          "elapsed_ms": 52.52,
+          "error": null,
+          "body_excerpt": "{\"message\": \"coupon redeemed\"}"
+        },
+        {
+          "worker": 7,
+          "status": 200,
+          "success": true,
+          "elapsed_ms": 51.43,
+          "error": null,
+          "body_excerpt": "{\"message\": \"coupon redeemed\"}"
+        },
+        {
+          "worker": 8,
+          "status": 200,
+          "success": true,
+          "elapsed_ms": 51.49,
+          "error": null,
+          "body_excerpt": "{\"message\": \"coupon redeemed\"}"
+        },
+        {
+          "worker": 9,
+          "status": 200,
+          "success": true,
+          "elapsed_ms": 53.3,
+          "error": null,
+          "body_excerpt": "{\"message\": \"coupon redeemed\"}"
+        }
+      ]
+    },
+    {
+      "burst": 4,
+      "requests_sent": 10,
+      "successes": 10,
+      "flagged": true,
+      "status_counts": {
+        "200": 10
+      },
+      "start_spread_ms": 0.532,
+      "duration_ms": 55.03,
+      "requests": [
+        {
+          "worker": 0,
+          "status": 200,
+          "success": true,
+          "elapsed_ms": 51.66,
+          "error": null,
+          "body_excerpt": "{\"message\": \"coupon redeemed\"}"
+        },
+        {
+          "worker": 1,
+          "status": 200,
+          "success": true,
+          "elapsed_ms": 52.81,
+          "error": null,
+          "body_excerpt": "{\"message\": \"coupon redeemed\"}"
+        },
+        {
+          "worker": 2,
+          "status": 200,
+          "success": true,
+          "elapsed_ms": 52.85,
+          "error": null,
+          "body_excerpt": "{\"message\": \"coupon redeemed\"}"
+        },
+        {
+          "worker": 3,
+          "status": 200,
+          "success": true,
+          "elapsed_ms": 52.41,
+          "error": null,
+          "body_excerpt": "{\"message\": \"coupon redeemed\"}"
+        },
+        {
+          "worker": 4,
+          "status": 200,
+          "success": true,
+          "elapsed_ms": 52.82,
+          "error": null,
+          "body_excerpt": "{\"message\": \"coupon redeemed\"}"
+        },
+        {
+          "worker": 5,
+          "status": 200,
+          "success": true,
+          "elapsed_ms": 52.92,
+          "error": null,
+          "body_excerpt": "{\"message\": \"coupon redeemed\"}"
+        },
+        {
+          "worker": 6,
+          "status": 200,
+          "success": true,
+          "elapsed_ms": 53.07,
+          "error": null,
+          "body_excerpt": "{\"message\": \"coupon redeemed\"}"
+        },
+        {
+          "worker": 7,
+          "status": 200,
+          "success": true,
+          "elapsed_ms": 52.04,
+          "error": null,
+          "body_excerpt": "{\"message\": \"coupon redeemed\"}"
+        },
+        {
+          "worker": 8,
+          "status": 200,
+          "success": true,
+          "elapsed_ms": 52.73,
+          "error": null,
+          "body_excerpt": "{\"message\": \"coupon redeemed\"}"
+        },
+        {
+          "worker": 9,
+          "status": 200,
+          "success": true,
+          "elapsed_ms": 53.01,
+          "error": null,
+          "body_excerpt": "{\"message\": \"coupon redeemed\"}"
+        }
+      ]
+    },
+    {
+      "burst": 5,
+      "requests_sent": 10,
+      "successes": 10,
+      "flagged": true,
+      "status_counts": {
+        "200": 10
+      },
+      "start_spread_ms": 0.844,
+      "duration_ms": 55.23,
+      "requests": [
+        {
+          "worker": 0,
+          "status": 200,
+          "success": true,
+          "elapsed_ms": 51.59,
+          "error": null,
+          "body_excerpt": "{\"message\": \"coupon redeemed\"}"
+        },
+        {
+          "worker": 1,
+          "status": 200,
+          "success": true,
+          "elapsed_ms": 53.11,
+          "error": null,
+          "body_excerpt": "{\"message\": \"coupon redeemed\"}"
+        },
+        {
+          "worker": 2,
+          "status": 200,
+          "success": true,
+          "elapsed_ms": 52.25,
+          "error": null,
+          "body_excerpt": "{\"message\": \"coupon redeemed\"}"
+        },
+        {
+          "worker": 3,
+          "status": 200,
+          "success": true,
+          "elapsed_ms": 52.65,
+          "error": null,
+          "body_excerpt": "{\"message\": \"coupon redeemed\"}"
+        },
+        {
+          "worker": 4,
+          "status": 200,
+          "success": true,
+          "elapsed_ms": 52.27,
+          "error": null,
+          "body_excerpt": "{\"message\": \"coupon redeemed\"}"
+        },
+        {
+          "worker": 5,
+          "status": 200,
+          "success": true,
+          "elapsed_ms": 52.76,
+          "error": null,
+          "body_excerpt": "{\"message\": \"coupon redeemed\"}"
+        },
+        {
+          "worker": 6,
+          "status": 200,
+          "success": true,
+          "elapsed_ms": 52.62,
+          "error": null,
+          "body_excerpt": "{\"message\": \"coupon redeemed\"}"
+        },
+        {
+          "worker": 7,
+          "status": 200,
+          "success": true,
+          "elapsed_ms": 53.03,
+          "error": null,
+          "body_excerpt": "{\"message\": \"coupon redeemed\"}"
+        },
+        {
+          "worker": 8,
+          "status": 200,
+          "success": true,
+          "elapsed_ms": 52.11,
+          "error": null,
+          "body_excerpt": "{\"message\": \"coupon redeemed\"}"
+        },
+        {
+          "worker": 9,
+          "status": 200,
+          "success": true,
+          "elapsed_ms": 51.7,
+          "error": null,
+          "body_excerpt": "{\"message\": \"coupon redeemed\"}"
+        }
+      ]
+    }
+  ]
+}
